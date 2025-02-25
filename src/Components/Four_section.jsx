@@ -38,6 +38,7 @@ const Four_section = () => {
           <div className="w-1/2">
             <Section_cart bg_src={R1} h1={"Supply of national industries."} />
           </div>
+          
         </div>
       </section>
     </div>
