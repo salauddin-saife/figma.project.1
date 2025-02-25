@@ -1,10 +1,11 @@
 import React from "react";
 import Button from "./Button";
-import Section_cart from "./section_cart";
+
 import R1 from "../assets/R1.png";
 import R2 from "../assets/R2.png";
 import R3 from "../assets/R3.png";
 import Container from "./Container";
+import Cart2 from "./Cart2";
 
 const Four_section = () => {
   return (
@@ -28,17 +29,17 @@ const Four_section = () => {
             </Container>
           </div>
           <div className="w-1/2">
-            <Section_cart bg_src={R2} h1={"Supply of national industries."} />
+            <Cart2 bg_src={R2} h1={"Supply of national industries."} />
           </div>
         </div>
         <div className="flex justify-between">
           <div className="w-1/2">
-            <Section_cart bg_src={R3} h1={"Supply of national industries."} />
+            <Cart2 bg_src={R3} h1={"Supply of national industries."} />
           </div>
           <div className="w-1/2">
-            <Section_cart bg_src={R1} h1={"Supply of national industries."} />
+            <Cart2 bg_src={R1} h1={"Supply of national industries."} />
           </div>
-          
+
         </div>
       </section>
     </div>

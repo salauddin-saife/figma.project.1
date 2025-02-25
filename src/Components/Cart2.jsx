@@ -1,8 +1,7 @@
-import React from "react";
-import Button from "./Button";
-import R1 from "../assets/R1.png";
+import React from 'react'
+import Button from './Button'
 
-const Section_cart = ({bg_src, h1}) => {
+const Cart2 = ({bg_src, h1}) => {
   return (
     <div>
       <div
@@ -29,7 +28,7 @@ const Section_cart = ({bg_src, h1}) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Section_cart;
+export default Cart2
