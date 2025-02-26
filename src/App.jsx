@@ -8,6 +8,9 @@ import Slider from './Components/Slider'
 import Four_section from './Components/Four_section'
 import Learn_more from './Components/Learn_more'
 import Logo_part from './Components/Logo_part'
+import Cart_part from './Components/Cart_part'
+import Map from './Components/Map'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
       <Four_section/>
       <Learn_more/>
       <Logo_part/>
+      <Cart_part/>
+      <Map/>
+      <Footer/>
       <Cart/>
     </div>
   )

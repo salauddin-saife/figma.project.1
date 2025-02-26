@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "./Image";
-import Img1 from "../assets/unsplash_4XvAZN8_WHo.png";
+
 import Button from "./Button";
 
-const Cart = () => {
+const Cart = ({img_src}) => {
   return (
     <div>
       <div className="w-[339px] h-[401px] bg-[#000000]/60 relative">
         <div className="">
-          <Image src={Img1} />
+          <Image src={img_src} />
           <div className="w-[339px] h-[401px] bg-[#000000]/60 absolute top-0 left-0"></div>
 
           <div className="w-[249px] h-[180px] bg-transparent absolute top-[55px] left-[40px] font-poppins font-bold text-[24px] text-[#FFFFFF] ">
