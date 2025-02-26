@@ -88,31 +88,31 @@ const Footer = () => {
             <div className="w-3/12 pt-[170px]">
               <ul className="space-y-6 ">
                 <Li
-                  Li_text={"Company"}
+                  Li_text={"Others"}
                   Li_class={
                     "justify-start font-poppins font-normal text-[14px]"
                   }
                 />
                 <Li
-                  Li_text={"Home"}
+                  Li_text={"Blog"}
                   Li_class={
                     "justify-start font-poppins font-normal text-[14px]"
                   }
                 />
                 <Li
-                  Li_text={"About"}
+                  Li_text={"Contact"}
                   Li_class={
                     "justify-start font-poppins font-normal text-[14px]"
                   }
                 />
                 <Li
-                  Li_text={"Service"}
+                  Li_text={"Terms & Conditions"}
                   Li_class={
                     "justify-start font-poppins font-normal text-[14px]"
                   }
                 />
                 <Li
-                  Li_text={"Gallery"}
+                  Li_text={"Privacy Policy"}
                   Li_class={
                     "justify-start font-poppins font-normal text-[14px]"
                   }
