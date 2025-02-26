@@ -1,32 +1,26 @@
-import React from 'react'
-import Button from './Components/Button'
-import Cart from './Components/Cart'
-import Navbar from './Components/Navbar'
-import Banner from './Components/Banner'
-import Biggest from './Components/Biggest'
-import Slider from './Components/Slider'
-import Four_section from './Components/Four_section'
-import Learn_more from './Components/Learn_more'
-import Logo_part from './Components/Logo_part'
-import Cart_part from './Components/Cart_part'
-import Map from './Components/Map'
-import Footer from './Components/Footer'
+import React from "react";
+import {
+  createRoutesFromElements,
+  createBrowserRouter,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import Home from "./Pages/Home";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+      <Route path="/" element={<Home />}></Route>
+    </>
+  )
+);
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <Banner/>
-      <Biggest/>
-      <Slider/>
-      <Four_section/>
-      <Learn_more/>
-      <Logo_part/>
-      <Cart_part/>
-      <Map/>
-      <Footer/>
+      <RouterProvider router={router} />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
