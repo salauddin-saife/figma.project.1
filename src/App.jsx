@@ -25,7 +25,6 @@ const App = () => {
       <Cart_part/>
       <Map/>
       <Footer/>
-      <Cart/>
     </div>
   )
 }
