@@ -9,7 +9,7 @@ import img7 from "../assets/img7.png";
 const Cart_part = () => {
   return (
     <div>
-      <section className="bg-[#F0F0F0] pt-[200px] pb-[200px]">
+      <section className="bg-[#F0F0F0] max-w-[1920px] mx-auto pt-[200px] pb-[200px]">
         <Container>
           <div className="flex justify-between items-center">
             <Cart img_src={img5} />

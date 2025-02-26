@@ -7,7 +7,7 @@ import Button from "./Button";
 const Learn_more = () => {
   return (
     <div>
-      <section className="bg-[#F0F0F0]">
+      <section className="bg-[#F0F0F0] max-w-[1920px] mx-auto">
         <div>
           <Container>
             <div className="flex pt-[150px] pb-[150px]">
