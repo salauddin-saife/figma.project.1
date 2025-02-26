@@ -12,7 +12,7 @@ import Cert2 from "../assets/Cert2.png"
 const Footer = () => {
   return (
     <div>
-      <section className="w-[1920px] h-[661px] bg-[#1F1F1F] mx-auto mt-[148px]">
+      <section className="w-[1920px] h-[661px] bg-[#1F1F1F] mx-auto ">
         <Container>
           <div className="flex gap-x-10">
             <div className="w-[334px] h-[233px] space-y-10 text-left pt-[170px]">

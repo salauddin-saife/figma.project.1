@@ -18,25 +18,25 @@ const Navbar = () => {
           <div className="flex items-center gap-x-10">
             <div>
               <ul className="flex gap-x-20">
-                <Link to={"/"}>
+                <Link to={"../"}>
                   <Li Li_class={""} Li_text={"Home"} />
                 </Link>{" "}
-                <Link to={"/"}>
+                <Link to={"/about"}>
                   <Li Li_class={""} Li_text={"About"} />
                 </Link>{" "}
-                <Link to={"/"}>
+                <Link to={"/services"}>
                   <Li Li_class={""} Li_text={"Services"} />
                 </Link>
-                <Link to={"/"}>
+                <Link to={"/gallery"}>
                   <Li Li_class={""} Li_text={"Gallery"} />
                 </Link>{" "}
-                <Link to={"/"}>
+                <Link to={"/#"}>
                   <Li Li_class={""} Li_text={"Blog"} />
                 </Link>{" "}
               </ul>
             </div>
             <div>
-              <Link to={""}>
+              <Link to={"/contact"}>
                 <Button
                   Button_text={"CONTACT"}
                   Button_class={

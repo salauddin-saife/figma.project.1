@@ -9,6 +9,7 @@ import Logo_part from "../Components/Logo_part";
 import Cart_part from "../Components/Cart_part";
 import Map from "../Components/Map";
 import Footer from "../Components/Footer";
+import Join from "../Components/Join";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Logo_part />
       <Cart_part />
       <Map />
+      <Join/>
       <Footer />
     </div>
   );
