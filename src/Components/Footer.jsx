@@ -6,8 +6,12 @@ import Logo from "../assets/Logo.png";
 import { IoMdMailUnread } from "react-icons/io";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaMapLocationDot } from "react-icons/fa6";
-import Cert1 from "../assets/Cert1.png"
-import Cert2 from "../assets/Cert2.png"
+import Cert1 from "../assets/Cert1.png";
+import Cert2 from "../assets/Cert2.png";
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -48,6 +52,12 @@ const Footer = () => {
                       "justify-start font-poppins font-normal text-[14px]"
                     }
                   />
+                </ul>
+                <ul className=" flex text-[#FFFFFF]  gap-x-10 items-center">
+                  <FaFacebook className="scale-[150%] hover:text-[#F40404] duration-300 hover:scale-[195%]" />
+                  <FaTwitter  className="scale-[150%] hover:text-[#F40404] duration-300 hover:scale-[195%]"/>
+                  <FaLinkedin  className="scale-[150%] hover:text-[#F40404] duration-300 hover:scale-[195%]"/>
+                  <BsInstagram className="scale-[150%] hover:text-[#F40404] duration-300 hover:scale-[195%]" />
                 </ul>
               </div>
             </div>
